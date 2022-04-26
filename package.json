@@ -1,11 +1,10 @@
 {
   "name": "express-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": 	"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +14,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassemeloraby/mosh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bassemeloraby/mosh/issues"
+  },
+  "homepage": "https://github.com/bassemeloraby/mosh#readme",
+  "description": ""
 }

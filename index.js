@@ -1,5 +1,4 @@
 const express = require('express');
-const { status } = require('express/lib/response');
 const app = express();
 
 app.use(express.json())
@@ -22,6 +21,8 @@ app.post('/api/courses', (req, res) => {
     id: courses.length + 1,
     name: req.body.name,
   };
+  courses.push(course);
+  res.send(course);
 });
 
 app.get('/api/courses/:id', (req, res) => {
